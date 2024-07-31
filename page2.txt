@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HERE IS YOUR N-WORD PASS</h1>
+    <div id="imageContainer"></div>
+    <button class='ah' id="downloadButton">Download Image</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  /**background: linear-gradient(90deg, #454545, #212121, #000000);**/
+  background: #1b1818;
+}
+
+form {
+  margin: 20px auto;
+  width: 300px;
+}
+
+h1{
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  color: #fff;
+}
+
+p{
+  font-family: "Cutive Mono", monospace;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  color: #fff;
+  background-color: transparent;
+  font-family: "Cutive Mono", monospace;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#imageContainer {
+  margin: 20px auto;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000;
+  position: relative;
+  background: #f0f0f0;
+}
+
+#imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#downloadButton {
+  margin-top: 20px;
+}
+
+button {
+    margin: 10px 0; /* Add horizontal space between buttons */
+}
+
+.ah {
+  width: 250px;
+}
